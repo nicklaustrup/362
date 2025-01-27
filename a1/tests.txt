@@ -1,0 +1,40 @@
+# Bug 1: Null string
+# Bug 2: Amex with correct checksum overwrites invalid length
+# Bug 3: Mastercard with length 15 and wrong checksum
+# Bug 4: Amex with length 17 and wrong checksum
+# Bug 5: Prefix 36 with valid checksum and length
+# Bug 6: Valid visa with valid checksum returns false
+# Bug 7: Mastercard with wrong checksum
+# Bug 8: Mastercard with length 17
+# Bug 9: 
+# Bug 10: Valid Amex with valid checksum returns false
+# Prefix
+    Prefix:
+        0. [error]
+        # Visa
+        4.          [property visa]
+        # Amex
+        34.         [if !visa] [property amex]
+        37.         [if !visa] [property amex]
+        # Mastercard
+        50.         [if !visa] [if !amex]
+        51.         [if !visa] [if !amex] [property mastercard]
+        55.         [if !visa] [if !amex] [property mastercard]
+        56.         [if !visa] [if !amex]
+        2220.       [if !visa] [if !amex]
+        2221.       [if !visa] [if !amex] [property mastercard]
+        2720.       [if !visa] [if !amex] [property mastercard]
+        2721.       [if !visa] [if !amex]
+
+# Length
+    Length:
+        0.          [error]
+        14.         [if amex]
+        15.         
+        16.         
+        17.         [if !amex]
+
+# Luhn Check 
+    Luhn Check:
+        Correct.
+        Incorrect.

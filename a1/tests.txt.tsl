@@ -1,0 +1,404 @@
+
+Test Case 1  		<error>
+   Prefix :  0
+
+
+Test Case 2  		<error>
+   Length :  0
+
+
+Test Case 3  		(Key = 2.3.1.)
+   Prefix     :  4
+   Length     :  15
+   Luhn Check :  Correct
+
+
+Test Case 4  		(Key = 2.3.2.)
+   Prefix     :  4
+   Length     :  15
+   Luhn Check :  Incorrect
+
+
+Test Case 5  		(Key = 2.4.1.)
+   Prefix     :  4
+   Length     :  16
+   Luhn Check :  Correct
+
+
+Test Case 6  		(Key = 2.4.2.)
+   Prefix     :  4
+   Length     :  16
+   Luhn Check :  Incorrect
+
+
+Test Case 7  		(Key = 2.5.1.)
+   Prefix     :  4
+   Length     :  17
+   Luhn Check :  Correct
+
+
+Test Case 8  		(Key = 2.5.2.)
+   Prefix     :  4
+   Length     :  17
+   Luhn Check :  Incorrect
+
+
+Test Case 9  		(Key = 3.2.1.)
+   Prefix     :  34
+   Length     :  14
+   Luhn Check :  Correct
+
+
+Test Case 10 		(Key = 3.2.2.)
+   Prefix     :  34
+   Length     :  14
+   Luhn Check :  Incorrect
+
+
+Test Case 11 		(Key = 3.3.1.)
+   Prefix     :  34
+   Length     :  15
+   Luhn Check :  Correct
+
+
+Test Case 12 		(Key = 3.3.2.)
+   Prefix     :  34
+   Length     :  15
+   Luhn Check :  Incorrect
+
+
+Test Case 13 		(Key = 3.4.1.)
+   Prefix     :  34
+   Length     :  16
+   Luhn Check :  Correct
+
+
+Test Case 14 		(Key = 3.4.2.)
+   Prefix     :  34
+   Length     :  16
+   Luhn Check :  Incorrect
+
+
+Test Case 15 		(Key = 4.2.1.)
+   Prefix     :  37
+   Length     :  14
+   Luhn Check :  Correct
+
+
+Test Case 16 		(Key = 4.2.2.)
+   Prefix     :  37
+   Length     :  14
+   Luhn Check :  Incorrect
+
+
+Test Case 17 		(Key = 4.3.1.)
+   Prefix     :  37
+   Length     :  15
+   Luhn Check :  Correct
+
+
+Test Case 18 		(Key = 4.3.2.)
+   Prefix     :  37
+   Length     :  15
+   Luhn Check :  Incorrect
+
+
+Test Case 19 		(Key = 4.4.1.)
+   Prefix     :  37
+   Length     :  16
+   Luhn Check :  Correct
+
+
+Test Case 20 		(Key = 4.4.2.)
+   Prefix     :  37
+   Length     :  16
+   Luhn Check :  Incorrect
+
+
+Test Case 21 		(Key = 5.3.1.)
+   Prefix     :  50
+   Length     :  15
+   Luhn Check :  Correct
+
+
+Test Case 22 		(Key = 5.3.2.)
+   Prefix     :  50
+   Length     :  15
+   Luhn Check :  Incorrect
+
+
+Test Case 23 		(Key = 5.4.1.)
+   Prefix     :  50
+   Length     :  16
+   Luhn Check :  Correct
+
+
+Test Case 24 		(Key = 5.4.2.)
+   Prefix     :  50
+   Length     :  16
+   Luhn Check :  Incorrect
+
+
+Test Case 25 		(Key = 5.5.1.)
+   Prefix     :  50
+   Length     :  17
+   Luhn Check :  Correct
+
+
+Test Case 26 		(Key = 5.5.2.)
+   Prefix     :  50
+   Length     :  17
+   Luhn Check :  Incorrect
+
+
+Test Case 27 		(Key = 6.3.1.)
+   Prefix     :  51
+   Length     :  15
+   Luhn Check :  Correct
+
+
+Test Case 28 		(Key = 6.3.2.)
+   Prefix     :  51
+   Length     :  15
+   Luhn Check :  Incorrect
+
+
+Test Case 29 		(Key = 6.4.1.)
+   Prefix     :  51
+   Length     :  16
+   Luhn Check :  Correct
+
+
+Test Case 30 		(Key = 6.4.2.)
+   Prefix     :  51
+   Length     :  16
+   Luhn Check :  Incorrect
+
+
+Test Case 31 		(Key = 6.5.1.)
+   Prefix     :  51
+   Length     :  17
+   Luhn Check :  Correct
+
+
+Test Case 32 		(Key = 6.5.2.)
+   Prefix     :  51
+   Length     :  17
+   Luhn Check :  Incorrect
+
+
+Test Case 33 		(Key = 7.3.1.)
+   Prefix     :  55
+   Length     :  15
+   Luhn Check :  Correct
+
+
+Test Case 34 		(Key = 7.3.2.)
+   Prefix     :  55
+   Length     :  15
+   Luhn Check :  Incorrect
+
+
+Test Case 35 		(Key = 7.4.1.)
+   Prefix     :  55
+   Length     :  16
+   Luhn Check :  Correct
+
+
+Test Case 36 		(Key = 7.4.2.)
+   Prefix     :  55
+   Length     :  16
+   Luhn Check :  Incorrect
+
+
+Test Case 37 		(Key = 7.5.1.)
+   Prefix     :  55
+   Length     :  17
+   Luhn Check :  Correct
+
+
+Test Case 38 		(Key = 7.5.2.)
+   Prefix     :  55
+   Length     :  17
+   Luhn Check :  Incorrect
+
+
+Test Case 39 		(Key = 8.3.1.)
+   Prefix     :  56
+   Length     :  15
+   Luhn Check :  Correct
+
+
+Test Case 40 		(Key = 8.3.2.)
+   Prefix     :  56
+   Length     :  15
+   Luhn Check :  Incorrect
+
+
+Test Case 41 		(Key = 8.4.1.)
+   Prefix     :  56
+   Length     :  16
+   Luhn Check :  Correct
+
+
+Test Case 42 		(Key = 8.4.2.)
+   Prefix     :  56
+   Length     :  16
+   Luhn Check :  Incorrect
+
+
+Test Case 43 		(Key = 8.5.1.)
+   Prefix     :  56
+   Length     :  17
+   Luhn Check :  Correct
+
+
+Test Case 44 		(Key = 8.5.2.)
+   Prefix     :  56
+   Length     :  17
+   Luhn Check :  Incorrect
+
+
+Test Case 45 		(Key = 9.3.1.)
+   Prefix     :  2220
+   Length     :  15
+   Luhn Check :  Correct
+
+
+Test Case 46 		(Key = 9.3.2.)
+   Prefix     :  2220
+   Length     :  15
+   Luhn Check :  Incorrect
+
+
+Test Case 47 		(Key = 9.4.1.)
+   Prefix     :  2220
+   Length     :  16
+   Luhn Check :  Correct
+
+
+Test Case 48 		(Key = 9.4.2.)
+   Prefix     :  2220
+   Length     :  16
+   Luhn Check :  Incorrect
+
+
+Test Case 49 		(Key = 9.5.1.)
+   Prefix     :  2220
+   Length     :  17
+   Luhn Check :  Correct
+
+
+Test Case 50 		(Key = 9.5.2.)
+   Prefix     :  2220
+   Length     :  17
+   Luhn Check :  Incorrect
+
+
+Test Case 51 		(Key = 10.3.1.)
+   Prefix     :  2221
+   Length     :  15
+   Luhn Check :  Correct
+
+
+Test Case 52 		(Key = 10.3.2.)
+   Prefix     :  2221
+   Length     :  15
+   Luhn Check :  Incorrect
+
+
+Test Case 53 		(Key = 10.4.1.)
+   Prefix     :  2221
+   Length     :  16
+   Luhn Check :  Correct
+
+
+Test Case 54 		(Key = 10.4.2.)
+   Prefix     :  2221
+   Length     :  16
+   Luhn Check :  Incorrect
+
+
+Test Case 55 		(Key = 10.5.1.)
+   Prefix     :  2221
+   Length     :  17
+   Luhn Check :  Correct
+
+
+Test Case 56 		(Key = 10.5.2.)
+   Prefix     :  2221
+   Length     :  17
+   Luhn Check :  Incorrect
+
+
+Test Case 57 		(Key = 11.3.1.)
+   Prefix     :  2720
+   Length     :  15
+   Luhn Check :  Correct
+
+
+Test Case 58 		(Key = 11.3.2.)
+   Prefix     :  2720
+   Length     :  15
+   Luhn Check :  Incorrect
+
+
+Test Case 59 		(Key = 11.4.1.)
+   Prefix     :  2720
+   Length     :  16
+   Luhn Check :  Correct
+
+
+Test Case 60 		(Key = 11.4.2.)
+   Prefix     :  2720
+   Length     :  16
+   Luhn Check :  Incorrect
+
+
+Test Case 61 		(Key = 11.5.1.)
+   Prefix     :  2720
+   Length     :  17
+   Luhn Check :  Correct
+
+
+Test Case 62 		(Key = 11.5.2.)
+   Prefix     :  2720
+   Length     :  17
+   Luhn Check :  Incorrect
+
+
+Test Case 63 		(Key = 12.3.1.)
+   Prefix     :  2721
+   Length     :  15
+   Luhn Check :  Correct
+
+
+Test Case 64 		(Key = 12.3.2.)
+   Prefix     :  2721
+   Length     :  15
+   Luhn Check :  Incorrect
+
+
+Test Case 65 		(Key = 12.4.1.)
+   Prefix     :  2721
+   Length     :  16
+   Luhn Check :  Correct
+
+
+Test Case 66 		(Key = 12.4.2.)
+   Prefix     :  2721
+   Length     :  16
+   Luhn Check :  Incorrect
+
+
+Test Case 67 		(Key = 12.5.1.)
+   Prefix     :  2721
+   Length     :  17
+   Luhn Check :  Correct
+
+
+Test Case 68 		(Key = 12.5.2.)
+   Prefix     :  2721
+   Length     :  17
+   Luhn Check :  Incorrect
+
